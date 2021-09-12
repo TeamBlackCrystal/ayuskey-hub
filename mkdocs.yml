@@ -6,6 +6,20 @@ theme:
     repo: fontawesome/brands/git-alt
   logo: https://s3.akarinext.org/assets/*/ayuskey.png
   favicon: https://s3.akarinext.org/assets/*/ayuskey.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: white
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: light green
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
 repo_url: https://github.com/TeamBlackCrystal/misskey
 repo_name: Ayuskey
 
@@ -23,6 +37,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/TeamBlackCrystal/misskey
   copyright: Copyright &copy; 2021 TeamBlackCrystal
+
+
 
 extra_css:
   - https://s3.akarinext.org/assets/*/custom.css
