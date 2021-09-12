@@ -12,6 +12,8 @@ repo_name: Ayuskey
 plugins:
   - search
   - git-revision-date-localized
+  - git-authors
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
