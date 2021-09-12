@@ -5,6 +5,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   logo: https://s3.akarinext.org/assets/*/ayuskey.png
+  favicon: https://s3.akarinext.org/assets/*/ayuskey.png
 repo_url: https://github.com/TeamBlackCrystal/misskey
 repo_name: Ayuskey
 
