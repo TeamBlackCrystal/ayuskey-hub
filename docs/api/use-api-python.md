@@ -16,8 +16,27 @@ i = 'my token'
 
 data = json.dumps({'i': i, 'text': 'Welcome to Ayuskey'}, ensure_ascii=false)
 
-res = requests.post(data=data)
+res = requests.post('http://localhost:3300/api/notes/create', data=data)
 print(res.json())
 
+>>> response内容
+```
+
+## リプライ
+
+`requests`パッケージを使用して、`note_id`変数にあるidを元にノートにリプライを送りましょう。
+
+```python
+import requests
+import json
+
+i = 'my token'
+note_id = 'xxxxxxxx'
+
+data = json.dumps({'i': i, 'text': 'Welcome to Ayuskey', 'replyId': note_id}, ensure_ascii=false)
+
+res = requests.post('http://localhost:3300/api/notes/create')
+
+print(res.json())
 >>> response内容
 ```
