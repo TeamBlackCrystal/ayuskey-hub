@@ -1,5 +1,9 @@
 # Ayuskey Hub
 
+[![Documentation Status](https://readthedocs.org/projects/ayuskey-hub/badge/?version=latest)](https://ayuskey-hub.readthedocs.io/ja/latest/?badge=latest)
+
+## 概要
+
 Ayuskey HubではAyuskeyの開発者2人が大事だと思うことや説明、お願い事などを書くサイトです。
 
 ## 動かし方
