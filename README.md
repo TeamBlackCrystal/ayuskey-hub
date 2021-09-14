@@ -41,10 +41,9 @@ pip install -r .\docs\requirements.txt
 mkdocs serve
 ```
 
-[document-badge]: https://readthedocs.org/projects/ayuskey-hub/badge/?version=latest
+[document-badge]: https://img.shields.io/readthedocs/ayuskey-hub?style=flat-square
 
 [document-link]: https://ayuskey-hub.readthedocs.io/ja/latest/?badge=latest
-
 
 [e2e-link]:      https://github.com/TeamBlackCrystal/misskey/actions/workflows/e2e.yml
 
