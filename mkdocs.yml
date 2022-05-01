@@ -4,8 +4,8 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/git-alt
-  logo: https://s3.akarinext.org/assets/*/ayuskey.png
-  favicon: https://s3.akarinext.org/assets/*/ayuskey.png
+  logo: https://s3.akirin.xyz/assets/ayuskey.png
+  favicon: https://s3.akirin.xyz/assets/ayuskey.png
   palette:
     - media: "(prefers-color-scheme: light)"
       primary: white
